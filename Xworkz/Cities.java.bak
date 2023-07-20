@@ -1,0 +1,44 @@
+class Cities{
+	public static void main(String[] args)
+	{
+		System.out.println("Running main in Cities :");
+		
+			String city1="Banglore";
+			String city2="Manglore";
+			String city3="Shimoga";
+			String city4="Chikkamagaluru";
+			String city5="Davanagere";
+			String city6="Mysore";
+			String city7="Tumkur";
+			String city8="Tarikere";
+			String[] cityName={city1,city2,city3,city4,city5,city6,city7,city8};
+			
+			String city11=cityName[0];
+			System.out.println("City name :"+city1);
+			
+			String city21=cityName[1];
+			System.out.println("City name :"+city2);
+			
+			String city31=cityName[2];
+			System.out.println("City name :"+city3);
+			
+			String city41=cityName[3];
+			System.out.println("City name :"+city4);
+			
+			String city51=cityName[4];
+			System.out.println("City name :"+city5);
+			
+			String city61=cityName[5];
+			System.out.println("City name :"+city6);
+			
+			String city71=cityName[6];
+			System.out.println("City name :"+city7);
+			
+			String city81=cityName[7];
+			System.out.println("City name :"+city8);
+			
+			
+	}
+}
+		
+			

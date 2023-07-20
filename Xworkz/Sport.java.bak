@@ -1,0 +1,10 @@
+class Sport{
+	public static void main(String[] args)
+	{
+		System.out.println("RCB having more fans compared to all IPL teams");
+		System.out.println("India Lost test Match against Astralia");
+		System.out.println("Saina nehwal is one of the best badminton player");
+		System.out.println("Cricketer KL Rahul is from karnataka");
+		System.out.println("MS Dhoni is the best captain of INDIAN cricket team");
+	}
+}

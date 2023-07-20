@@ -1,0 +1,21 @@
+class Wallet{
+	int cost;
+	String brand;
+	String color;
+	
+	Wallet()
+	{
+		System.out.println("Cost :"+this.cost);
+		System.out.println("Brand :"+this.brand);
+		System.out.println("Color :"+this.color);
+	}
+	Wallet(String brand,int cost,String color)
+	{
+		this.cost=cost;
+		this.brand=brand;
+		this.color=color;
+		System.out.println("Cost :"+this.cost);
+		System.out.println("Brand :"+this.brand);
+		System.out.println("Color :"+this.color);
+	}
+}

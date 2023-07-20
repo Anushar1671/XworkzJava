@@ -1,0 +1,10 @@
+class Movie{
+	public static void main(String[] args)
+	{
+		System.out.println("Adipurush is the recent trending movie");
+		System.out.println("RRR got more valuable awards");
+		System.out.println("KGF is one of the best movie in kannada");
+		System.out.println("Vikranth rona is one of the best movie of sudeep");
+		System.out.println("Kurukshetra is one of the best mythological movie in kannada");
+	}
+}

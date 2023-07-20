@@ -1,0 +1,10 @@
+class Self{
+	public static void main(String[] args)
+	{
+		System.out.println("Self love is key to life");
+		System.out.println("Respect yourself");
+		System.out.println("Be kind to yourself");
+		System.out.println("Never be invisible to yourself");
+		System.out.println("Just be yourself");
+	}
+}

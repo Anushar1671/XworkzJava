@@ -1,0 +1,9 @@
+class CricketMain{
+	public static void main(String[] args)
+	{
+		System.out.println("Invoking CricketInformation in CricketMain");
+		CricketInfo cricket=new Cricket();
+		System.out.println("---------------------------");
+		Cricket cricket1=new Cricket(11,"Eden Garden","M S Dhoni");
+	}
+}

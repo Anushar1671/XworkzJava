@@ -1,0 +1,18 @@
+class TMTBars{
+	public static void main(String[] args)
+	{
+		System.out.println("TMT Details");
+		String brand="TMT";
+		float price=65.55f;
+		String quantity="KG";
+		
+		
+		
+		
+		System.out.println("Brand :"+brand);
+		System.out.println("Price :"+price);
+		System.out.println("Quantity :"+quantity);
+		System.out.println("");
+		System.out.println("");
+	}
+}

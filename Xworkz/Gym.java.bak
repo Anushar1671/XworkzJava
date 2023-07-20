@@ -1,0 +1,13 @@
+class Gym{
+	String name;
+	String use;
+	String workOutType;
+	String workOutType1;
+	int fees;
+	
+	Metro()
+	{
+		System.out.println("invoking constructor in Gym");
+	}
+}
+	

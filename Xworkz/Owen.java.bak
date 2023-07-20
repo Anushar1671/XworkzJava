@@ -1,0 +1,27 @@
+class Owen{
+	static void info(String brand,int cost,String color)
+	{
+		if(brand!=null)
+		{
+			System.out.println("Condition valid :"+brand);
+		}
+		else
+		{
+			System.out.println("Condition invalid :"+brand);
+		}
+		if(cost>10000 && cost<=100000)
+		{
+			System.out.println("Condition valid :"+brand);
+		}
+		else
+		{
+			System.out.println("Condition invalid :"+brand);
+		}
+		if(brand!=null)
+		{
+			System.out.println("Condition valid :"+brand);
+		}
+		else
+		{
+			System.out.println("Condition invalid :"+brand);
+		}

@@ -1,0 +1,24 @@
+class Carrom{
+	int price;
+	String name;
+	int noOfPlayer;
+	String material;
+	int coinColor;
+	
+	Carrom(int price,String name,int noOfPlayers,String material,int coinColor)
+	{
+		System.out.println("Invoking int,String,int,String,int in constructor");
+		System.out.println("Price of Carrom Board :"+price);
+		System.out.println("Name of Carrom Board :"+name);
+		System.out.println("Number of Players in Carrom :"+noOfPlayer);
+		System.out.println("material used for Carrom Board :"+material);
+		System.out.println("Coin Color of Carrom :"+coinColor);
+		this.price=price;
+		this.name=name;
+		this.noOfPlayer=noOfPlayer;
+		this.material=material;
+		this.coinColor=coinColor;
+	}
+}
+	
+	

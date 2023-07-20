@@ -1,0 +1,12 @@
+class Speaker{
+	public static void main(String[] args)
+	{
+		System.out.println("Speaker information");
+		String color1="black";
+		String color2="white";
+		String button1="up";
+		String button2="down";
+		String switch1="on";
+		String switch2="off";
+		
+		

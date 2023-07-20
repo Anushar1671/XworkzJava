@@ -1,0 +1,10 @@
+class Place{
+	public static void main(String[] args)
+	{
+		System.out.println("Famous Krishna temple located at udupi");
+		System.out.println("Banglore is silicon city pf karnataka");
+		System.out.println("Chikkamagaluru is famous for coffee");
+		System.out.println("Tumakuru is known as kalpatara nadu");
+		System.out.println("New places always help us to look at life differently");
+	}
+}

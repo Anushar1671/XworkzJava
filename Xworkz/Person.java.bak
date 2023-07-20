@@ -1,0 +1,6 @@
+class Person{
+	static void()
+	{
+		System.out.println("");
+		
+		

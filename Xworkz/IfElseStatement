@@ -1,0 +1,12 @@
+class IfElseStatement{
+	public static void main(String[] args)
+	{
+		int p=10;
+		int q=20;
+		if(p<q){
+			System.out.println("p is greater than q");
+		}
+		else
+			System.out.println("p is less than q");
+	}
+}

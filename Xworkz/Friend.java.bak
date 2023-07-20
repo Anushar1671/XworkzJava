@@ -1,0 +1,10 @@
+class Friend{
+	public static void main(String[] args)
+	{
+		System.out.println("Friends are more than family");
+		System.out.println("Friendship is one of the best relationship");
+		System.out.println("Friendship marks a life more betterthan love");
+		System.out.println("True friends are more valuable");
+		System.out.println("A true friend is forever a friend");
+	}
+}

@@ -1,0 +1,13 @@
+class Pocket{
+	String ref;
+	String ref1;
+	int number;
+	int money;
+	String ref2;
+	
+	Pocket()
+	{
+		System.out.println("invoking variable in Pocket");
+	}
+}
+	

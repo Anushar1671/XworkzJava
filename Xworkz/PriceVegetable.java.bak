@@ -1,0 +1,36 @@
+class PriceVegetable{
+		public static void main(String[] args)
+		{
+			int onion=35;
+			int tomato=100;
+			int greenChilli=60;
+			int beetroot=45;
+			int potato=40;
+			int carrot=65;
+			int brinjal=30;
+			
+			int[] vegetable={onion,tomato,greenChilli,beetroot,potato,carrot,brinjal};
+			
+			System.out.println("Vegetable at position 6 after change "+vegetable[6]);
+			System.out.println("-------------------------------------------------");
+			
+			for(int vegetables=0;vegetables<vegetable.length;vegetables++)
+			{
+				int ref=vegetable[vegetables];
+				System.out.println("Vegetables at "+ref+" is "+vegetables);
+			}
+			System.out.println("-------------------------------------------------");
+			int total=vegetable.length;
+			System.out.println("Vegetable at position 6 before change "+vegetable[6]);
+			vegetable[6]=50;
+			for(int vegetables=vegetable.length-1;vegetables>=0;vegetables--)
+			{
+				int ref=vegetable[vegetables];
+				System.out.println("Vegetables at "+ref+" is "+vegetables);
+			}
+		
+	}
+}
+			 
+
+	

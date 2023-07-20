@@ -1,0 +1,15 @@
+class Pincode{
+	public static void main(String[] args)
+	{
+		System.out.println("Running main in Pincode :");
+		
+			int tarikere=577228;
+			
+			int[] pincode={577228};
+			
+			int tkr=pincode[0];
+			System.out.println("Pincode of Tarikere :"+tarikere);
+		
+	}
+}
+	

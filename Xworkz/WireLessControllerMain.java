@@ -1,0 +1,41 @@
+class WireLessControllerMain{
+	public static void main(String[] args)
+	{
+		System.out.println("running main in WireLessController");
+		WireLessController wireLessController=new WireLessController();
+		System.out.println(wireLessController.pc);
+		System.out.println(wireLessController.mobile);
+		System.out.println(wireLessController.connection);
+		System.out.println(wireLessController.price);
+		System.out.println(wireLessController.use);
+		System.out.println("-------------------");
+		wireLessController.pc="Xbox";
+		wireLessController.mobile="Nacon";
+		wireLessController.connection="bluetooth";
+		wireLessController.price=5000;
+		wireLessController.use="allow wirelss network access";
+		System.out.println(wireLessController.pc);
+		System.out.println(wireLessController.mobile);
+		System.out.println(wireLessController.connection);
+		System.out.println(wireLessController.price);
+		System.out.println(wireLessController.use);
+		System.out.println("=======================");
+		WireLessController wireLessController1=new WireLessController();
+		System.out.println(wireLessController1.pc);
+		System.out.println(wireLessController1.mobile);
+		System.out.println(wireLessController1.connection);
+		System.out.println(wireLessController1.price);
+		System.out.println(wireLessController1.use);
+		System.out.println("-------------------");
+		wireLessController1.pc="Redgear elite";
+		wireLessController1.mobile="Gamepad";
+		wireLessController1.connection="bluetooth";
+		wireLessController1.price=3000;
+		wireLessController1.use="allow wirelss network access";
+		System.out.println(wireLessController1.pc);
+		System.out.println(wireLessController1.mobile);
+		System.out.println(wireLessController1.connection);
+		System.out.println(wireLessController1.price);
+		System.out.println(wireLessController1.use);
+	}
+}
