@@ -1,0 +1,9 @@
+class ButterflyMain{
+	public static void main(String[] args)
+	{
+		System.out.println("Invoking Butterfly in ButterflyMain");
+		Butterfly butterfly=new Butterfly(6,"Orange");
+		butterfly.printInstance();
+		Butterfly.printStatic();
+	}
+}
